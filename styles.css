@@ -637,6 +637,11 @@ select {
   background: #f8f8f8;
   outline: none;
   transition: all 0.2s ease;
+
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 select:focus {
@@ -949,5 +954,4 @@ footer small {
     max-height: 16rem;
 
   }
-
 }
