@@ -878,7 +878,7 @@ footer small {
   }
 
   .gallery-item {
-    min-width: 17rem;
+    min-width: 16rem;
     max-width: 22rem;
     max-height: 16rem;
 
@@ -949,4 +949,5 @@ footer small {
     max-height: 16rem;
 
   }
+
 }
