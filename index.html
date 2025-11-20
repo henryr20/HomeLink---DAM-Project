@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HomeLink</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+  <div id="top"></div>
+
+  <!-- !Header -->
+
+  <header>
+    <div id="header-bubble">
+      <div id="logo-name">
+        <a href="#top">
+          <i class="fa fa-home" id="logo"></i>
+          <h2>HomeLink</h2>
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#how-to">How-To</a></li>
+          <li><a href="#trending">Trending</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#ulist">uList</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="fa fa-bars" id="dropdown-button"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- !Hero -->
+    <section id="hero" class="section-tone">
+      <div class="section-container">
+        <div id="hero-background"></div>
+        <div id="hero-overlay"></div>
+        <div id="hero-content">
+          <div id="hero-text">
+            <p id="hero-kicker">Smart home · Energy efficient</p>
+            <h1>Control your smart home from one place</h1>
+            <p id="hero-subtitle">
+              Explore, organize and manage all your connected devices by room, with a clean, intuitive and professional
+              experience.
+            </p>
+          </div>
+          <div id="hero-actions">
+            <a href="#how-to">
+              How it works
+            </a>
+            <a href="#trending">
+              Trending products
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- !HowTo -->
+    <section id="how-to">
+      <div class="section-container">
+        <div class="intro">
+          <h2>How-To</h2>
+          <p>This section is designed to help you make real decisions about your smart home, not just to showcase
+            products.</p>
+        </div>
+
+        <div id="steps">
+          <div class="step">
+            <i class="fa-solid fa-search"></i>
+            <h3>1. Explore</h3>
+            <p>Explore a refined collection of trusted smart-home devices, from lighting to sensors and everyday
+              automations.</p>
+          </div>
+
+          <div class="step">
+            <i class="fa-solid fa-layer-group"></i>
+            <h3>2. Organize</h3>
+            <p>Add what you own or what you plan to buy, and keep everything neatly grouped in one place.</p>
+          </div>
+
+          <div class="step">
+            <i class="fa-solid fa-sliders"></i>
+            <h3>3. Manage</h3>
+            <p>Review device count and estimated cost per room to detect inconsistencies and optimize your smart-home
+              plan.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- !Trending -->
+    <section id="trending" class="section-tone">
+      <div class="section-container">
+        <div class="intro">
+          <h2>Trending Products</h2>
+          <p>A curated selection of smart-home devices commonly used the last month.</p>
+          <p>We recommend you to use them as reference when building your own list.</p>
+        </div>
+
+        <div id="device-list-legend">
+          <div class="legend-item">
+            <span class="legend-dot legend-dot-lighting"></span> Lighting
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot legend-dot-energy"></span> Energy
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot legend-dot-security"></span> Security
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot legend-dot-comfort"></span> Comfort
+          </div>
+        </div>
+
+        <div class="device-list" id="device-list-container">
+          <!-- JS FILLS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- !Gallery -->
+    <section id="gallery">
+      <div class="section-container">
+        <div class="intro">
+          <h2>Gallery</h2>
+          <p>Visual examples of how smart devices integrate across different rooms. The images are for reference only —
+            choices are yours.</p>
+        </div>
+
+        <div id="gallery-container">
+
+          <figure class="gallery-item"> <!--1-->
+            <img src="img/living-room.png" alt="Living Room">
+            <figcaption>
+              <p>Living Room · Smart TV & LED</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item"> <!--2-->
+            <img src="img/kitchen.png" alt="Kitchen">
+            <figcaption>
+              <p>Kitchen · LEDs & WiFi conectivity</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item"> <!--3-->
+            <img src="img/bedroom.png" alt="Bedroom">
+            <figcaption>
+              <p>Bedroom · Smart Lamps & AI Assistant</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item"> <!--4-->
+            <img src="img/desktop.png" alt="Desktop">
+            <figcaption>
+              <p>Desktop · RGB, Smart conections & IoT implementation</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item"> <!--5-->
+            <img src="img/hallway.png" alt="Hallway">
+            <figcaption>
+              <p>Hallway · Movement Sensor & Lights</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item"> <!--6-->
+            <img src="img/garden.png" alt="Garden">
+            <figcaption>
+              <p>Garden · Smart Spotlights, Pathways & Modern Architecture</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item"> <!--7-->
+            <img src="img/bathroom.png" alt="Bathroom">
+            <figcaption>
+              <p>Smart LEDs & AI Assistant</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item"> <!--8-->
+            <img src="img/smart-home-hub.png" alt="Smart Home Hub">
+            <figcaption>
+              <p>Smart Home Hub · IoT Implementation</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item"> <!--9-->
+            <img src="img/home-office.png" alt="Home Office">
+            <figcaption>
+              <p>Home Office · Portable Solar Panels & WorkStation</p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item"> <!--10-->
+            <img src="img/security.png" alt="Security">
+            <figcaption>
+              <p>Security · Camera & Motion Sensor</p>
+            </figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- !uList -->
+    <section id="ulist" class="section-tone">
+      <div class="section-container">
+        <div class="intro">
+          <h2>uList</h2>
+          <p>Add the devices you already own or plan to purchase. Your list updates in real time based on the
+            information you provide.</p>
+        </div>
+
+        <div class="ulist-layout">
+          <div class="ulist-card" id="device-form-card">
+
+            <form id="device-form" novalidate>
+              <div class="input-group">
+                <label for="device-name">Device Name</label>
+                <input type="text" id="device-name" placeholder="Hue Smart Lightbulb">
+                <span class="error-msg" id="device-name-error"></span>
+              </div>
+
+              <div class="input-group">
+                <label for="device-brand">Brand</label>
+                <input type="text" id="device-brand" placeholder="Philips, TP-Link, Xiaomi">
+                <span class="error-msg" id="device-brand-error"></span>
+              </div>
+
+              <div class="input-group">
+                <label for="device-room">Room</label>
+                <input type="text" id="device-room" placeholder="Living Room, Bedroom, Office">
+                <span class="error-msg" id="device-room-error"></span>
+              </div>
+
+              <div class="input-group">
+                <label for="device-category">Category</label>
+                <div class="select-wrapper">
+                  <select id="device-category">
+                    <option value="">Category</option>
+                    <option value="lighting">Lighting</option>
+                    <option value="energy">Energy</option>
+                    <option value="security">Security</option>
+                    <option value="comfort">Comfort</option>
+                  </select>
+                </div>
+                <span class="error-msg" id="device-category-error"></span>
+              </div>
+
+              <div class="input-group">
+                <label for="device-price">Approx. Price($)</label>
+                <input type="number" step="0.01" id="device-price" placeholder="29.99">
+                <span class="error-msg" id="device-price-error"></span>
+              </div>
+
+              <button type="submit" class="submit-button">Save Device</button>
+              <small class="form-helper">
+                Data won't be sent to any server. It is managed only on this page in your browser.
+              </small>
+            </form>
+          </div>
+
+          <div class="ulist-right">
+            <h3>Your devices</h3>
+            <p class="ulist-subtitle">
+              Here you will see the devices you added using the form.
+            </p>
+
+            <p id="user-device-list-empty">
+              You haven't added any devices yet. Fill the form to get started.
+            </p>
+
+            <ul id="user-device-list">
+              <!-- JS FILLS -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- !Summary -->
+    <section id="ulist-summary">
+      <div class="section-container">
+        <div class="intro">
+          <h2>Summary</h2>
+          <p>Review how many devices you have in each room and the associated estimated investment. It's a quick way to
+            spot imbalances and prioritize upgrades.</p>
+        </div>
+
+        <div id="room-summary-container" class="room-summary-container">
+          <!-- FILLED WITH JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- !Contact -->
+    <section id="contact" class="section-tone">
+      <div class="section-container">
+        <div class="intro">
+          <h2>Contact</h2>
+          <p>Tell us about your home and what you prioritize — security, comfort, or energy efficiency. Based on your
+            device list, you'll be able to evaluate a realistic and actionable improvement plan.</p>
+        </div>
+
+        <form id="contactForm" novalidate>
+
+          <div class="input-group">
+            <label>Name</label>
+            <input type="text" id="name" required>
+            <span class="error-msg">Enter a valid name.</span>
+          </div>
+
+          <div class="input-group">
+            <label>Email</label>
+            <input type="email" id="email" required>
+            <span class="error-msg">Enter a valid Email.</span>
+          </div>
+
+          <div class="input-group">
+            <label>Message</label>
+            <textarea id="message" rows="5" required></textarea>
+            <span class="error-msg">Message can't be empty.</span>
+          </div>
+
+          <button class="submit-button" type="submit">Enviar</button>
+
+          <p class="success-msg" id="successMsg">¡Message Successfully Sent!</p>
+
+        </form>
+
+      </div>
+    </section>
+
+    <footer>
+      <div class="section-container">
+        <div class="footer-block">
+          <h3>HomeLink</h3>
+          <p>
+            HomeLink unifies your smart home with a clean, intuitive way to explore and manage every connected device.
+          </p>
+        </div>
+        <div class="footer-block">
+          <h3>Navigation</h3>
+          <ul class="footer-nav">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#how-to">How-To</a></li>
+            <li><a href="#trending">Trending</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#ulist-summary">uList</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-block">
+          <h3>Project</h3>
+          <ul class="footer-meta">
+            <li>
+              <a href="https://github.com/henryr20">
+                <span class="fa-brands fa-github"></span>
+                <span>henryr20</span>
+              </a>
+            </li>
+            <li>
+              <span class="fa-solid fa-user"></span>
+              <span>Enrique Romero R.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright-container">
+        <small>
+          &copy; <span id="current-year"></span> HomeLink · Smart Home Essentials
+        </small>
+      </div>
+    </footer>
+
+      <div id="image-modal" class="img-modal">
+    <div class="img-modal-inner">
+      <button class="img-modal-close" aria-label="Close image">&times;</button>
+      <img id="img-modal-picture" src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" alt="">
+      <p id="img-modal-caption"></p>
+    </div>
+  </div>
+  </main>
+
+  <script src="main-script.js"></script>
+
+</body>
+
+</html>
