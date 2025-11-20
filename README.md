@@ -37,8 +37,8 @@ All data is handled locally in the browser using plain HTML, CSS, and JavaScript
 ---
 
 ## Acknowledgements
-Design Reference: https://dribbble.com/shots/20919942-Smart-Home-Dashboard
-README Reference: https://github.com/othneildrew/Best-README-Template
+- Design Reference: https://dribbble.com/shots/20919942-Smart-Home-Dashboard
+- README Reference: https://github.com/othneildrew/Best-README-Template
 
 ---
 
