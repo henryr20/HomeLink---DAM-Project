@@ -36,14 +36,12 @@ document.addEventListener("DOMContentLoaded", () => {
     yearSpan.textContent = new Date().getFullYear();
   }
 
-  const dropdownButton = document.getElementById("dropdown-button");
-  const navList = document.querySelector("header nav ul");
+  const btn = document.getElementById('dropdown-button');
+  const menu = document.getElementById('mobile-nav');
 
-  if (dropdownButton && navList) {
-    dropdownButton.addEventListener("click", () => {
-      navList.classList.toggle("is-open");
-    });
-  }
+  btn.addEventListener('click', () => {
+    menu.classList.toggle('is-open');
+  });
 
   initGalleryLightbox();
 

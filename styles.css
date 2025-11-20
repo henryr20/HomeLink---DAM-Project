@@ -96,7 +96,7 @@ header nav {
   gap: 1.5rem;
 }
 
-header ul {
+#desktop-nav {
   display: flex;
   list-style: none;
   gap: 1.5rem;
@@ -120,6 +120,11 @@ header a:hover {
   display: none;
   cursor: pointer;
   font-size: 24px;
+}
+
+#mobile-nav {
+  display: none;
+  /* oculto en escritorio */
 }
 
 /* HERO */
@@ -850,36 +855,35 @@ footer small {
     padding: 4rem 2rem;
   }
 
-  header nav {
-    position: relative;
-    overflow:visible;
+  #desktop-nav {
+    display: none;
   }
 
-  header ul {
+  #mobile-nav {
     position: absolute;
-    top: 200%;
-    right: -75%;
-    border-radius: 24px;
+    top: 4.8rem;
+    right: 3.05rem;
+    list-style: none;
     padding: 1.25rem 1.75rem;
+    border-radius: 24px;
     background-color: var(--bubble-bg-color);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     gap: 0.8rem;
-    z-index: 10;
+    align-items: flex-end;
+    z-index: 200;
 
     opacity: 0;
     max-height: 0;
     overflow: hidden;
-
-    transition: max-height 1s ease, opacity 0.5s ease;
+    transition: max-height 1s ease, opacity 0.8s ease;
   }
 
-  header ul.is-open {
-    max-height: 12rem;
-    opacity: 100%;
+  #mobile-nav.is-open {
+    opacity: 1;
+    max-height: 15rem;
   }
 
   #dropdown-button {
@@ -909,6 +913,10 @@ footer small {
   #header-bubble {
     width: 100%;
     margin: 0.75rem 1rem;
+  }
+
+  #mobile-nav {
+    right: 1.05rem;
   }
 
   #hero .section-container {
